@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
     private fun load(url: String) {
         Glide.with(this)
             .load(url)
-            .into(binding!!.imageMeme)
+            .into(binding.imageMeme)
 
     }
 
